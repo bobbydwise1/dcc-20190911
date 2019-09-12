@@ -23,7 +23,9 @@
     <p>Type in values for strings and k:</p>
     <div style='border: 2px solid black; margin: 10px; padding: 10px'>
       <form id='form1'>
-        <p>Enter a value: <input id='input-1' type='text' required placeholder='2'></p>
+        <p>Integers only!</p>
+        <p>Enter a base: <input id='input-1' type='number' required placeholder='2' pattern='/[^\.]/g'></p>
+        <p>Enter an exponent: <input id='input-2' type='number' required placeholder='10' pattern='/[^\.]/g'></p>
         <button type='submit'>Submit</button>
       </form>
     </div>
