@@ -8,7 +8,7 @@ Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
 */
 
-//Googled this:
+//Googled this: https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 const exper = (x,n) => {
   if (n < 0) {
     return exper(1/x,-n) 
